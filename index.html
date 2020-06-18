@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <a class="navbar-brand" href="#">WEBSITE</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main">
+  <span class="navbar-toggler-icon"></span>
+</button>
+    <div class="collapse navbar-collapse" id="main">
+      <ul class="nav nav-pills ">
+
+        <li class="nav-item active">
+          <a class="nav-link" data-toggle="pill" href="#home">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="pill" href="#about">ABOUT</a>
+        </li>
+
+        <li class="nav-item ">
+          <a  class="nav-link "  href="#contact1"  data-toggle="pill">CONTACT US</a>
+
+        </li>
+      </ul>
+
+    </div>
+
+
+    <form class="form-inline justify-content-end" action="/action_page.php">
+      <input class="form-control mr-sm-2" type="text" placeholder="search">
+      <button class="btn btn-success" type="submit">Search</button>
+    </form>
+  </nav>
+  <br/>
+  <div class="tab-content">
+<div class=" tab-pane container-fluid active" id="home">
+<div class="jumbotron text-center" >
+  <h1>Web Development</h1>
+  <p>This is an responsive website ,resize it to see the effect</p>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Column 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 3</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    </div>
+  </div>
+</div>
+</div>
+<div class="tab-pane container fade" id="about"><h1> Web Development </h1>
+
+<input placeholder="search.." class="searchtype">
+<section id="mainpart">
+
+<article><div  class="first"></div><h1>Html</h1><br/><p>HTML is at the core of every web page, regardless the complexity of a site or number of technologies involved...<a  class="x" href="https://en.wikipedia.org/wiki/HTML">read more</a></article>
+<article><div  class="first"></div> <h1>Css</h1><br/><p>CSS is what gives your entire website its style. Those slick colors, interesting fonts, and background image...<a class="y" href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets">read more</a></article>
+<article> <div  class="first"></div><h1>Javascript</h1><br/> <p>JavaScript is a more complicated language than HTML or CSS, and it wasn't released in beta form until 1995....<a class="z" href="https://en.wikipedia.org/wiki/JavaScript">read more</a></article>
+</section>
+<section class="second">
+<p><h1>Web development</h1> refers to building, creating, and an maintaining websites. It includes aspects such as web design, web publishing, web programming, and database management.
+</p><br/>
+<p>While the terms "web developer" and "web designer" are often used synonymously, they do not mean the same thing. Technically, a web designer only designs website interfaces using HTML and CSS. A web developer may be involved in designing a website, but may also write web scripts in languages such as PHP and ASP. Additionally, a web developer may help maintain and update a database used by a dynamic website.
+</p><br/>
+<p>Web development includes many types of web content creation. Some examples include hand coding web pages in a text editor, building a website in a program like Dreamweaver, and updating a blog via a blogging website. In recent years, content management systems like WordPress, Drupal, and Joomla have also become popular means of web development. These tools make it easy for anyone to create and edit their own website using a web-based interface.
+</p><br/>
+<p>While there are several methods of creating websites, there is often a trade-off between simplicity and customization. Therefore, most large businesses do not use content management systems, but instead have a dedicated Web development team that designs and maintains the company's website(s). Small organizations and individuals are more likely to choose a solution like WordPress that provides a basic website template and simplified editing tools.
+</p><br/>
+<p>NOTE: JavaScript programming is a type of web development that is generally not considered part of web design. However, a web designer may reference JavaScript libraries like jQuery to incorporate dynamic elements into a site's design.
+</p><br/>
+</section></div>
+<div class="tab-pane container fade " id="contact1">
+  <h2>If you have any queries please contact us by filling this form:</h2><br/><br/>
+<input type="text" value="username" name="username" placeholder="username" id="username" style="width:70%"><br/><br/><br/>
+<input type="email" value="email" name="email" placeholder="name12@gmail.com" id="email" style="width:70%"><br/><br/><br/>
+<textarea id="textarea" name="textarea" placeholder="message" style="width:70%"></textarea><br/><br/>
+<button class="btn btn-success" value="submit" style="width:70%">submit</button>
+
+
+
+
+</div>
+</body>
+</html>
