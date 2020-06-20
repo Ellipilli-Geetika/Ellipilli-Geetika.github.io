@@ -1,0 +1,27 @@
+canvas{
+  height:200px;
+  border: 1px solid lightgray;
+}
+body{
+  background-color:Moccasin;
+}
+h1{
+  text-shadow:2px 2px #fff;
+}
+
+#black{
+  background-color:grey;
+  color:black;
+  width:150px;
+  height:30px;
+}
+#red{
+  background-color:red;
+  color:white;
+  width:150px;
+  height:30px;
+}
+#reset{background-color:#bdf7ff;
+  width:150px;
+  height:30px;
+}

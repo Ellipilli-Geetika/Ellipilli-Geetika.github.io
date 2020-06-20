@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>uploading a image and applying filters </title>
+    <link rel="stylesheet"  type = "text/css"
+   href = "img.css" /> 
+<script src="img.js"></script>
+  </head>
+  <body>
+   
+    <p><h1>Uploading and Applying filters to a image</h1>
+      <script src=http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js> </script>
+   <ol><li><p>In this website you can apply filters to your image</p>
+</li><li><p> You just need to select a image from your device and then apply the filters </p>
+</li><li><p>You can also reset your image to original image</p>
+   </li><canvas id="can">
+    </canvas></p>
+  <p>
+   
+    Filename: <input type="file" multiple="false" accept="image/*" id="finput" onchange="upload()">
+    </p>
+  <p>
+    <input type="button" value="black and white" id="black" onclick="makeGray()">
+    <input type="button" value="red filter" id="red" onclick="makeRed()">
+    <input type="button" value="reset to original" id="reset" onclick="reset()">
+  </p>
+<p> This is done using canvas</p>
+  </body>
+  </html>
